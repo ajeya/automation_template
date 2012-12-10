@@ -1,7 +1,7 @@
 # RSpec/Capybara Sample Automation Test
 
 ## Instructions
-* Install RVM from [here]("https://rvm.io/rvm/install/")
+* Install RVM from [here](https://rvm.io/rvm/install/)
 * Clone this repository. This clones a '.rvmrc' along with the other required files.
 ```bash
 git clone git@github.com:ajeya/automation_template.git
@@ -28,4 +28,4 @@ fill_in "password", with: "some-password"
 ```bash
 rspec sample.rspec.rb
 ```
-* For an up-to-date Capybara cheatsheet refer to [this gist]("https://gist.github.com/4249173")
+* For an up-to-date Capybara cheatsheet refer to [this gist](https://gist.github.com/4249173)
