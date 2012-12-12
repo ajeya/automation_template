@@ -11,7 +11,7 @@ git clone git@github.com:ajeya/automation_template.git
 
 ```bash
 cd automation_template
-source .rmvrc
+source .rvmrc
 gem install bundler
 bundle install
 ```
