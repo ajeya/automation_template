@@ -6,12 +6,12 @@ Capybara.default_driver = :selenium
 Capybara.app_host = ""
 
 describe 'Goto' do
-	before (:each)  do
-		visit "/admin"
-		fill_in "username", with: ""
+  before (:each)  do
+    visit "/admin"
+    fill_in "username", with: ""
     fill_in "password", with: ""
-		click_button "Login"
-	end
+    click_button "Login"
+  end
 
   it "should be able to create a new product" do
     # The following line produces an ambiguous match.
