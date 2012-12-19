@@ -10,7 +10,8 @@ git clone git@github.com:ajeya/automation_template.git
 * Run the following commands from the same directory as the rest of your code
 
 ```bash
-source .rmvrc
+cd automation_template
+source .rvmrc
 gem install bundler
 bundle install
 ```
